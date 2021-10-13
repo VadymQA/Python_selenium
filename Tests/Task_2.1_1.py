@@ -15,10 +15,10 @@ try:
     x = x_element.text
     y = calc(x)
 
-    input = browser.find_element_by_id("answer")
-    input.send_keys(y)
+    input_ = browser.find_element_by_id("answer")
+    input_.send_keys(y)
 
-    checkbox = browser.find_element_y_id("robotCheckbox")
+    checkbox = browser.find_element_by_id("robotCheckbox")
 
     checkbox.click()
 
@@ -28,7 +28,7 @@ try:
 
     button = browser.find_element_by_class_name("btn")
     button.click()
-    
+
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
     time.sleep(10)

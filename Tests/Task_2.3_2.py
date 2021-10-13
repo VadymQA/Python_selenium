@@ -1,9 +1,11 @@
 from selenium import webdriver
-import time;
-import math;
+import time
+import math
+
 
 def calc(x):
-  return str(math.log(abs(12*math.sin(int(x)))))
+    return str(math.log(abs(12 * math.sin(int(x)))))
+
 
 try:
 
@@ -26,8 +28,8 @@ try:
     browser.find_element_by_tag_name("button").click()
 
     # alert = browser.switch_to.alert
-    # allertText = alert.text
-    # print (allertText)
+    # alertText = alert.text
+    # print (alertText)
     # alert.accept()
 
 finally:

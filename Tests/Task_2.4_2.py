@@ -13,5 +13,4 @@ button = WebDriverWait(webdriver.Chrome(), 5).until(EC.element_to_be_clickable((
 button.click()
 message = browser.find_element_by_id("verify_message")
 
-
 assert "successful" in message.text
