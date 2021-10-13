@@ -24,6 +24,7 @@ y = calc(x)
 browser.find_element_by_id("answer").send_keys(y)
 # added comments just for commit
 # browser.execute_script("return arguments[0].scrollIntoView(true);", button)
+
 browser.find_element_by_id("solve").click()
 
 time.sleep(5)
