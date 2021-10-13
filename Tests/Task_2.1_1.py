@@ -15,8 +15,8 @@ try:
     x = x_element.text
     y = calc(x)
 
-    input = browser.find_element_by_id("answer")
-    input.send_keys(y)
+    input_ = browser.find_element_by_id("answer")
+    input_.send_keys(y)
 
     checkbox = browser.find_element_by_id("robotCheckbox")
 

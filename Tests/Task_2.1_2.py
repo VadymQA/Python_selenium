@@ -5,7 +5,7 @@ import math
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
 
-try: 
+try:
     link = "http://suninjuly.github.io/get_attribute.html"
     browser = webdriver.Chrome()
     browser.get(link)
@@ -16,8 +16,8 @@ try:
     print(x)
     y = calc(x)
 
-    input = browser.find_element_by_id("answer")
-    input.send_keys(y)
+    input_ = browser.find_element_by_id("answer")
+    input_.send_keys(y)
 
     checkbox = browser.find_element_by_id("robotCheckbox")
     checkbox.click()
