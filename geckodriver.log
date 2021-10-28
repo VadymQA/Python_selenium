@@ -1,0 +1,16 @@
+1635339228130	geckodriver	INFO	Listening on 127.0.0.1:50009
+1635339231110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Vadim\\AppData\\Local\\Temp\\rust_mozprofilecae8u5"
+1635339231955	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vadim\\AppData\\Local\\Temp\\rust_mozprofilecae8u5\\search.json.mozlz4", (void 0)))
+1635339235023	Marionette	INFO	Listening on port 50020
+1635339235338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1635339236946	Marionette	INFO	Stopped listening on port 50020
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Vadim\AppData\Local\Temp\rust_mozprofilecae8u5\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
